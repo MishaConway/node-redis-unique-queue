@@ -1,0 +1,21 @@
+{
+  "name": "redis-unique-queue",
+  "version": "1.0.0",
+  "description": "A unique queue with atomic operations implemented in Redis.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:MishaConway/node-redis-unique-queue.git"
+  },
+  "author": "Misha Conway <mishaAconway@gmail.com> (https://github.com/MishaConway)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MishaConway/node-redis-unique-queue/issues"
+  },
+  "homepage": "https://github.com/MishaConway/node-redis-unique-queue",
+  "dependencies" : {"redis": ">= 0.5.2"},
+  "engines"      : {"node" : ">= 0.2.6"}
+}
